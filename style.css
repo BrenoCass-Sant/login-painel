@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: aliceblue;
+  background-color: rgb(222, 238, 252);
 }
 
 main {
@@ -19,6 +19,8 @@ img {
   width: 40vw;
   height: 50vh;
   max-width: 500px;
+  border-top-left-radius: 2vh;
+  border-bottom-left-radius: 2vh;
 }
 
 .formulario {
@@ -27,16 +29,25 @@ img {
   background-color: white;
   max-width: 500px;
   padding: 3rem;
+  border-top-right-radius: 2vh;
+  border-bottom-right-radius: 2vh;
+  align-content: center;
 }
 .formulario h1 {
-  color: blue;
+  color: #002855;
+  font-family: "Funnel Display", sans-serif;
 }
 .formulario p {
+  margin-top: 1rem;
+  font-family: "Funnel Display", sans-serif;
+}
+.formulario label {
   margin-top: 1rem;
 }
 .formulario form {
   display: flex;
   flex-direction: column;
+  font-family: "Funnel Display", sans-serif;
 }
 .formulario input {
   padding: 0.7rem;
@@ -46,17 +57,18 @@ img {
 }
 .formulario button {
   margin-top: 1rem;
-  background-color: rgb(46, 83, 196);
+  background-color: #001845;
   color: aliceblue;
   padding: 0.7rem;
   border: none;
   border-radius: 5px;
   transition: all 0.5s ease;
+  font-family: "Funnel Display", sans-serif;
   font-weight: 600;
   cursor: pointer;
 }
 .formulario button:hover {
-  background-color: rgb(29, 29, 237);
+  background-color: #003674;
 }
 
 @media (max-width: 700px) {
