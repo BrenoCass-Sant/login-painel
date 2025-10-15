@@ -86,7 +86,29 @@ img {
 // @media
 
 @media (max-width: 700px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
     img {
         display: none;
+    }
+
+    main {
+        display: flex;
+        
+    }
+
+    .formulario {
+    //border: solid;
+        width: 65vw;
+        height: 70vh;
+        background-color: white;
+        max-width: 500px;
+        padding: 2rem;
+        border-radius: 2vh;
+        align-content: center;
     }
 }
